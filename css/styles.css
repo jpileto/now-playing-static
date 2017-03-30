@@ -292,7 +292,10 @@ figure {
     .about {
         float: right
     }
-
+    .movie-image {
+                position: relative;
+                left: 79px;
+            } 
 
 }*/
 
@@ -300,43 +303,45 @@ figure {
 /*
     latest revision/better format this time/  -->
 
-@media (min-width:768px) {
-    .site-nav {
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        height: 100%;
-        width: 10%;
+    @media (min-width:768px) {
+        .site-nav {
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: 10%;
+        }
+
+        .site-nav-item {
+            clear: left;
+            padding-left: 2px;
+            padding-right: 2px;
+
+        }
+
+        .site-logo {
+            z-index: 200;
+            left: 10px;
+            width: 60px;
+            height: 60px;
+
+        }
+
+        .site-nav-list {
+            display: block;
+            margin-top: 100px;
+            margin-left: 14px;
+        }
+
+        .site-nav-item-label {
+            font-size: 1em;
+            width: 55px;
+        }
+
+        .fa {
+            margin-left: 12px;
+        }
+
     }
-
-    .site-nav-item {
-        clear: left;
-        padding-left: 2px;
-        padding-right: 2px;
-
-    }
-
-    .site-logo {
-        z-index: 200;
-        left: 10px;
-        width: 60px;
-        height: 60px;
-
-    }
-
-    .site-nav-list {
-        display: block;
-        margin-top: 100px;
-        margin-left: 14px;
-    }
-
-    .site-nav-item-label {
-        font-size: 1em;
-        width: 55px;
-    }
-
-    .fa {
-        margin-left: 12px;
-    }*/
 
 }
